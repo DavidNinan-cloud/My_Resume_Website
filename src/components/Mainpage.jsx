@@ -1,0 +1,36 @@
+import React from 'react'
+import Navbar from './Navbar';
+import Intro from './Intro';
+import AboutMe from './AboutMe';
+import Experience from './Experience';
+import Contact from './Contact';
+
+export default function Mainpage() {
+
+  return (
+    <div className='h-screen w-screen overflow-x-hidden font-serif'>
+      <Navbar/>
+
+      {/* Intro */}
+      <Intro/>
+      
+      {/* About Me */}
+      <AboutMe/>
+
+      {/* Experience */}
+      <Experience/>
+      
+      {/* Contact */}
+      <Contact/>
+      {/* <div className='bg-[#F2F5F7] w-full h-screen px-24 py-6 grid grid-cols-3'>
+        <div>
+
+        </div>
+        <div className='col-span-2'>
+
+        </div>
+      </div> */}
+    </div>
+  )
+}
+
