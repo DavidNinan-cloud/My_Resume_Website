@@ -31,7 +31,7 @@ export default function Experience() {
     },[])
   return (
 <>
-  <div id='experience' className='bg-[#F2F5F7] w-full min-h-screen px-4 md:px-8 lg:px-28 pt-8 md:pt-28 pb-12 md:pb-48 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-12'>
+  <div id='experience' className='bg-[#F2F5F7] w-full min-h-screen px-4 md:px-8 lg:px-28 pt-8 md:pt-28 pb-12 md:pb-48 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-6 md:gap-y-6 lg:gap-y-12'>
 
     {/* ######### Experience ############### */}
     <div className='md:col-span-2'>
@@ -44,7 +44,7 @@ export default function Experience() {
       <p className='font-semibold text-cyan-950 text-2xl font-Playfair leading-6 mb-2'>
         Consultant
       </p>
-      <p className='font-medium text-cyan-950 text-2xl font-Playfair my-4'>
+      <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
         Biyn Enterprises / April 2023 - {lastMonth}
       </p>
       <p className='font-light text-cyan-950 text-lg font-Nunito'>
@@ -58,7 +58,7 @@ export default function Experience() {
       <p className='font-semibold text-cyan-950 text-2xl font-Playfair leading-6 mb-2'>
         Full-Stack Developer
       </p>
-      <p className='font-medium text-cyan-950 text-2xl font-Playfair my-4'>
+      <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
         Appystack / April 2022 - April 2023
       </p>
       <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
@@ -78,7 +78,7 @@ export default function Experience() {
       <p className='font-semibold text-cyan-950 text-2xl font-Playfair leading-6 mb-2'>
         Instructor for Full-Stack Development
       </p>
-      <p className='font-medium text-cyan-950 text-2xl font-Playfair my-4'>
+      <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
         Codekul / August 2022 - October 2022
       </p>
       <p className='font-light text-cyan-950 text-lg font-Nunito'>
