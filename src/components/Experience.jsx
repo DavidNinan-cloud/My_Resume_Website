@@ -35,7 +35,7 @@ export default function Experience() {
 
     {/* ######### Experience ############### */}
     <div className='md:col-span-2'>
-      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito '>
+      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito lg:text-left '>
         ― Work Experience
       </p>
     </div>
@@ -88,7 +88,7 @@ export default function Experience() {
 
     {/* ######### Education ########### */}
     <div className='md:col-span-2'>
-      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito '>
+      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito lg:text-left '>
         ― Education
       </p>
     </div>
@@ -116,7 +116,7 @@ export default function Experience() {
 
     {/* ######### Courses ########### */}
     <div className='md:col-span-2'>
-      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito '>
+      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito lg:text-left '>
         ― Courses
       </p>
     </div>
