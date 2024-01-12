@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 const EmailButton = () => {
   const handleEmailButtonClick = () => {
-    const email = 'info@davidninan.com';
+    const email = 'davidninan.com';
     const subject = 'Subject of the email';
     const body = 'Body of the email';
 

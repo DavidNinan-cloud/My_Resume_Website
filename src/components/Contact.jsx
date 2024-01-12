@@ -14,7 +14,7 @@ export default function Contact() {
         </div>
         <div className='text-left my-auto space-y-4'>
             <p>― CONTACTS</p>
-            <p className=' '>info@davidninan.com</p>
+            <p className='line-through'>info@davidninan.com</p>
         </div>
     </div>
   )

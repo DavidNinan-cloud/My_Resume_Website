@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className={`w-full flex justify-between px-6 md:px-16 py-4 md:py-8 fixed top-0 z-50 ${
+      className={`w-full flex justify-between px-6 md:px-16 py-4 md:py-8 md:fixed top-0 z-50 ${
         scrolling ? 'bg-[#F2F5F7]  text-[#1565C0] shadow-md' : 'bg-[#F2F5F7] text-[#1565C0]'
       }`}
     >
@@ -54,11 +54,11 @@ const Navbar = () => {
               Experience
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#testimonials" className="hover:underline">
               Testimonials
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" className="hover:underline">
               Contact
