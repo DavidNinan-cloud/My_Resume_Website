@@ -19,6 +19,7 @@ const Navbar = () => {
     };
   }, []);
 
+  
   const scrollToAboutMe = () => {
     const aboutMeElement = document.getElementById('about-me');
     if (aboutMeElement) {
@@ -35,8 +36,8 @@ const Navbar = () => {
   return (
     <div
       id="navbar"
-      className={`w-full flex justify-between px-6 md:px-16 py-4 md:py-8 md:fixed top-0 z-50 ${
-        scrolling ? 'bg-[#F2F5F7]  text-[#1565C0] shadow-md' : 'bg-[#F2F5F7] text-[#1565C0]'
+      className={`w-full flex justify-between px-6 md:px-16 py-4 md:py-8 fixed top-0 z-50 ${
+        scrolling ? 'bg-[#f2f1]  text-[#1565C0] shadow-md ' : 'bg-[#F2F5F7] text-[#1565C0]'
       }`}
     >
       <div className="text-2xl md:text-4xl font-bold text-left">

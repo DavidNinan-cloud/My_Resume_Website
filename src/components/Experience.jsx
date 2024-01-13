@@ -31,7 +31,7 @@ export default function Experience() {
     },[])
   return (
 <>
-  <div id='experience' className='bg-[#F2F5F7] w-full min-h-screen px-4 md:px-8 lg:px-28 pt-8 md:pt-28 pb-12 md:pb-48 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-6 md:gap-y-6 lg:gap-y-12'>
+  <div id='experience' className='lg:text-left bg-[#F2F5F7] w-full min-h-screen px-4 md:px-8 lg:px-28 pt-8 md:pt-28 pb-12 md:pb-48 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-y-6 md:gap-y-6 lg:gap-y-12'>
 
     {/* ######### Experience ############### */}
     <div className='md:col-span-2'>
