@@ -47,8 +47,20 @@ export default function Experience() {
       <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
         Biyn Enterprises / April 2023 - {lastMonth}
       </p>
-      <p className='font-light text-cyan-950 text-lg font-Nunito'>
-        Providing Consultancy and Software Solutions across multiple technologies
+      <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
+        Providing Consultancy and Software Solutions across multiple technologies.
+      </p>
+      <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
+      Developed and implemented topic modeling solutions to extract meaningful themes and insights from textual data.
+      </p>
+      <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
+      Built predictive models using advanced machine learning tools from Hugging Face.
+      </p>
+      <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
+      Created and maintained dashboards and visualizations using tools Tableau and Power BI.
+      </p>
+      <p className='font-light text-cyan-950 text-lg font-Nunito '>
+      Utilized tools such as Excel, SQL, Python, and R for data analysis and reporting. And Ensured data privacy and compliance with industry regulations.
       </p>
     </div>
 
@@ -67,8 +79,11 @@ export default function Experience() {
       <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
         Building custom packages and libraries.
       </p>
-      <p className='font-light text-cyan-950 text-lg font-Nunito'>
+      <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
         Technology and Software Architecture Consultant.
+      </p>
+      <p className='font-light text-cyan-950 text-lg font-Nunito '>
+      Utilized tools such as Java, React, NodeJs, PostgreSQL, MongoDb, Javascript, Tailwind, Bootstrap and Wordpress for Web-Development.
       </p>
     </div>
 
