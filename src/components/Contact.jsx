@@ -13,11 +13,11 @@ export default function Contact() {
             </p>
             
             <p className='md:hidden'>― CONTACTS</p>
-            <p className='md:hidden line-through'>info@davidninan.com</p>
+            <p className='md:hidden'>davidsninan@gmail.com</p>
         </div> 
         <div className='hidden md:block text-left my-auto space-y-4'>
             <p>― CONTACTS</p>
-            <p className='line-through'>info@davidninan.com</p>
+            <p className=''>davidsninan@gmail.com</p>
         </div>
     </div>
   )

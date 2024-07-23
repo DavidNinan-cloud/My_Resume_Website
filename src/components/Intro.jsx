@@ -41,7 +41,7 @@ export default function Intro() {
                 <li className='border-r-2 border-black pr-4'>
                   <EmailButton />
                 </li>
-                <li className='hover:underline my-auto line-through'>info@davidninan.com</li>
+                <li className='hover:underline my-auto '>davidsninan@gmail.com</li>
               </ul>
             </div>
           </div>

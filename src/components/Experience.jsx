@@ -42,7 +42,7 @@ export default function Experience() {
     {/* Biyn Enterprises */}
     <div className='col-span-3 md:col-span-3'>
       <p className='font-semibold text-cyan-950 text-2xl font-Playfair leading-6 mb-2'>
-        Consultant
+        Data Analyst
       </p>
       <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
         Biyn Enterprises / April 2023 - {lastMonth}
