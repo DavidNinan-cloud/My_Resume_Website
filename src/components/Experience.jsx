@@ -101,6 +101,23 @@ export default function Experience() {
       </p>
     </div>
 
+    {/* ######### volunteering ########### */}
+    <div className='md:col-span-2'>
+      <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito lg:text-left '>
+        ― Volunteering
+      </p>
+    </div>
+
+    {/* Christians Against Poverty */}
+    <div className='col-span-3 md:col-span-3 border-b-2 pb-6'>
+      <p className='font-semibold text-cyan-950 text-2xl font-Playfair leading-6 mb-4'>
+        Christians Against Poverty
+      </p>
+      <p className='font-medium text-cyan-950 text-xl font-Playfair '>
+        Dublin, Ireland / 2024
+      </p>
+    </div>
+
     {/* ######### Education ########### */}
     <div className='md:col-span-2'>
       <p className='font-bold text-[#462B58] text-xl leading-relaxed uppercase font-Nunito lg:text-left '>
