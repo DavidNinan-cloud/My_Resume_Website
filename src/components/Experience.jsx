@@ -94,7 +94,7 @@ export default function Experience() {
         Instructor for Full-Stack Development
       </p>
       <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
-        Codekul / August 2022 - October 2022
+        Codekul / August 2022 - Jan 2023
       </p>
       <p className='font-light text-cyan-950 text-lg font-Nunito'>
         Providing Training and Mentorship in Full-stack technologies.
