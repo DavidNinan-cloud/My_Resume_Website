@@ -45,7 +45,7 @@ export default function Experience() {
         Data Analyst
       </p>
       <p className='font-medium text-cyan-950 text-xl md:text-2xl font-Playfair my-4'>
-        Biyn Enterprises / April 2023 - {lastMonth}
+         Biyn Enterprises / Jan 2024 - June 2024{/* {lastMonth} */}
       </p>
       <p className='font-light text-cyan-950 text-lg font-Nunito mb-2'>
         Providing Consultancy and Software Solutions across multiple technologies.
