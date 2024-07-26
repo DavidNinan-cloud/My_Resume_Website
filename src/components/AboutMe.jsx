@@ -47,9 +47,9 @@ export default function AboutMe() {
                 ― MY BACKGROUND
               </p>
               <p className='leading-relaxed'>
-                In a relatively short period of time, I've gone through various
-                phases in my profession. Owing to the fact that I started my career
-                by establishing a startups, through which I got to work on many
+                In a relatively short period of time, I have been able develop extensive technical knowledge. 
+                Owing to the fact that I started my career
+                by working in startups. I have got to work on many
                 technologies based on our clients' needs and take on multiple
                 responsibilities. I have outlined some of the technologies below.
                 You can also check the projects I have worked on using this link.
