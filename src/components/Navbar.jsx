@@ -64,7 +64,17 @@ const Navbar = () => {
             <a href="#contact" className="hover:underline">
               Contact
             </a>
+          </li>'
+          <li>
+              <a
+                href="/DavidNinan-CV.pdf"
+                download
+                className="px-4 py-2 bg-[#1565C0] text-white font-semibold rounded hover:bg-[#104a91] transition"
+              >
+                Download CV
+              </a>
           </li>
+'
         </ul>
       </div>
     </div>

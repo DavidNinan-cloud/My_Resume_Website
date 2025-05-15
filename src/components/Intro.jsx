@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProfileImg from '../assets/cv image.png';
 import EmailButton from './EmailButton';
+import DownloadCVButton from './DownloadCVButton';
 
 export default function Intro() {
   const [navbarHeight, setNavbarHeight] = useState(0)
@@ -31,7 +32,7 @@ export default function Intro() {
               Hello World, I am David Ninan,
             </p>
             <p className='leading-snug'>
-              A Data Scientist with Entrepreneurial Spirit.
+              A Data Professional & Full-Stack Developer Specialized in AI & Automation.
             </p>
           </div>
 
@@ -40,6 +41,9 @@ export default function Intro() {
               <ul className='flex space-x-6 pt-2'>
                 <li className='border-r-2 border-black pr-4'>
                   <EmailButton />
+                </li>
+                <li className='border-r-2 border-black pr-4'>
+                  <DownloadCVButton/>
                 </li>
                 <li className='hover:underline my-auto '>davidsninan@gmail.com</li>
               </ul>
@@ -51,8 +55,8 @@ export default function Intro() {
               <li className='border-r-2 border-black pr-4'>
                 <a id='component-id' href="https://www.linkedin.com/in/david-ninan-OO7/" target="_blank" rel="noopener noreferrer" className='hover:underline '>Linkedin</a>
               </li>
-              <li className='border-r-2 border-black pr-4'><a href="" className='hover:underline'>Twitter</a></li>
-              <li><a href="" className='hover:underline'>Biyn-Enterprises</a></li>
+              <li className='border-r-2 border-black pr-4'><a href="https://github.com/DavidNinan-cloud" className='hover:underline'>GitHub</a></li>
+              <li><a href="https://biyn-enterprises.com/" className='hover:underline'>Biyn-Enterprises</a></li>
             </ul>
           </div>
 
