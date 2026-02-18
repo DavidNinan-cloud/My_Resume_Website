@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import { IoMdDownload } from "react-icons/io";
 
 const DownloadCVButton = () => {
   const handleEmailButtonClick = () => {
@@ -12,7 +13,7 @@ const DownloadCVButton = () => {
 
   return (
     <Button variant="contained" color="primary" onClick={handleEmailButtonClick}>
-      Download CV
+      <span className='hidden sm:block'>Download &nbsp;</span> CV <span className='block sm:hidden'> <IoMdDownload /> </span>
     </Button>
   );
 };

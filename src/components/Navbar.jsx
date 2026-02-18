@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -32,52 +33,69 @@ const Navbar = () => {
     //   aboutMeElement.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest'  });
     // }
   };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const navLinks = [
+    { name: 'About', href: '#about-me' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Contact', href: '#contact' },
+  ];
 // bg-[#55637A] text-white
   return (
-    <div
+    <>
+        <div
       id="navbar"
-      className={`w-full flex justify-between px-6 md:px-16 py-4 md:py-8 fixed top-0 z-50 ${
+      className={`w-full sm:flex justify-between px-6 md:px-16 py-4 md:py-8 fixed top-0 z-50 ${
         scrolling ? 'bg-[#f2f1]  text-[#1565C0] shadow-md ' : 'bg-[#F2F5F7] text-[#1565C0]'
       }`}
     >
-      <div className="text-2xl md:text-4xl font-bold text-left">
-        David Ninan
-      </div>
-      <div>
-        <ul className="flex space-x-6 pt-2 uppercase">
-          <li>
-            <a href="#about-me" className="hover:underline" onClick={scrollToAboutMe}>
-              About Me
-            </a>
-          </li>
-          <li>
-            <a href="#experience" className="hover:underline">
-              Experience
-            </a>
-          </li>
-          {/* <li>
-            <a href="#testimonials" className="hover:underline">
-              Testimonials
-            </a>
-          </li> */}
-          <li>
-            <a href="#contact" className="hover:underline">
-              Contact
-            </a>
-          </li>'
-          <li>
-              <a
-                href="/DavidNinan-CV.pdf"
-                download
-                className="px-4 py-2 bg-[#1565C0] text-white font-semibold rounded hover:bg-[#104a91] transition"
-              >
-                Download CV
+        <div className="text-2xl md:text-4xl font-bold text-left">
+          David Ninan
+        </div>
+        <div>
+          <ul className="flex space-x-6 pt-2 uppercase">
+            <li>
+              <a href="#about-me" className="hover:underline" onClick={scrollToAboutMe}>
+                About Me
               </a>
-          </li>
-'
-        </ul>
-      </div>
+            </li>
+            <li>
+              <a href="#experience" className="hover:underline">
+                Experience
+              </a>
+            </li>
+            {/* <li>
+              <a href="#testimonials" className="hover:underline">
+                Testimonials
+              </a>
+            </li> */}
+            <li>
+              <a href="#contact" className="hover:underline">
+                Contact
+              </a>
+            </li>'
+            <li>
+                <a
+                  href="/DavidNinan-CV.pdf"
+                  download
+                  className="px-4 py-2 bg-[#1565C0] text-white font-semibold rounded hover:bg-[#104a91] transition"
+                >
+                  Download CV
+                </a>
+            </li>
+  '
+          </ul>
+        </div>
     </div>
+
+    </>
+
   );
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
-const EmailButton = () => {
+const ResearchWebsiteButton = () => {
   const handleEmailButtonClick = () => {
     const email = 'davidsninan@gmail.com';
     const subject = 'Subject of the email';
@@ -13,10 +13,10 @@ const EmailButton = () => {
   };
 
   return (
-    <Button variant="contained" color="primary" onClick={handleEmailButtonClick}>
-      Email  <span className='hidden sm:block'>&nbsp; Me </span>
+    <Button variant="contained" color="secondary" onClick={handleEmailButtonClick}>
+      Research Website
     </Button>
   );
 };
 
-export default EmailButton;
+export default ResearchWebsiteButton;

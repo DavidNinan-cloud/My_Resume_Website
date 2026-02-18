@@ -5,12 +5,15 @@ import AboutMe from './AboutMe';
 import Experience from './Experience';
 import Contact from './Contact';
 import Projects from './Projects';
+import Navbar1 from './Navbar1';
 
 export default function Mainpage() {
 
   return (
     <div className='h-screen w-screen overflow-x-hidden font-serif'>
-      <Navbar/>
+      {/* <span className='sm:hidden'> */}
+      <Navbar1/>
+      {/* </span> */}
 
       {/* Intro */}
       <Intro/>
