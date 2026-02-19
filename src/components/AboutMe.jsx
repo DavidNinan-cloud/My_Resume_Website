@@ -101,7 +101,9 @@ export default function AboutMe() {
           </ul>
         </div>
       </div>
-
+              <p className='font-medium text-2xl text-cyan-950 leading-relaxed uppercase pb-3'>
+                ― Technical SKILLS
+              </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
         <div className="mx-auto">
           <Card sx={{ minWidth: 275, mx: "auto", height: "100%" }}>
