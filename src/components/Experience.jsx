@@ -3,7 +3,7 @@ import React from 'react';
 const workExperience = [
   {
     title: 'Generative AI Developer',
-    info:"(Founder)",
+    info:"(Co-Founder)",
     org: 'Biyn Enterprises Pvt Limited',
     location: 'Remote',
     date: 'September 2023 – Present',
