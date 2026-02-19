@@ -4,10 +4,10 @@ import { IoMdDownload } from "react-icons/io";
 
 const DownloadCVButton = () => {
   const handleEmailButtonClick = () => {
-    const cvUrl = '/Full-CV.pdf'; // Ensure this file is in your public folder
+    const cvUrl = '/Full-DavidNinan-CV.pdf'; // Ensure this file is in your public folder
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Full-CV.pdf';
+    link.download = 'DavidNinan-CV.pdf';
     link.click();
   };
 
